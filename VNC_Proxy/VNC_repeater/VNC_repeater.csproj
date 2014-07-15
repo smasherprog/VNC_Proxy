@@ -43,11 +43,21 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VNC_Host.cs" />
+    <Compile Include="Hosts\Tcp_Socket.cs" />
+    <Compile Include="Utility.cs" />
+    <Compile Include="VNC_Pair.cs" />
     <Compile Include="VNC_Proxy_Server.cs" />
+    <Compile Include="Hosts\IVNC_Socket.cs" />
+    <Compile Include="Hosts\WebSocket.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Fleck\Fleck.csproj">
+      <Project>{8b12d929-afa9-4307-beff-2ed0f1070fee}</Project>
+      <Name>Fleck</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
