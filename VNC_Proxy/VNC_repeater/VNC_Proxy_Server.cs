@@ -158,7 +158,7 @@ namespace VNC_repeater
                     TcpClient possibleclient = null;
                     try
                     {
-                        listener.AcceptTcpClientAsync();
+                      
                         possibleclient = listener.AcceptTcpClient();
                         possibleclient.NoDelay = true;
                         Process_Connections(new Tcp_Socket(possibleclient), process_func);
