@@ -14,7 +14,7 @@ Get the IP address of the VNC_Proxy Machine. I will assume it is 206.1.1.1 (reme
 Machine A IP 10.1.1.1 <br/>
 Machine B IP 10.1.1.2<br/>
 <br/>
-goto http://www.uvnc.com/ download the latest version of UltraVNC and install on Machine A and B<br/>
+goto http://www.uvnc.com/ download the latest version of UltraVNC and install on Machine A and B<br/><br/>
 Build and Run the VNC_Proxy program on the computer which is acting as the middle man and has a publicly routable IP!<br/><br/>
 On Machine A start up VNC Server (it will be in Start -> Programs )<br/>
 Once the program starts up, a yellow icon will be placed into your taskbar named WinVNC. <br/>
